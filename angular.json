@@ -33,9 +33,11 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "browserTarget": "dv-chat-workbench-standalone:build"
-          },
+         "options": {
+  "browserTarget": "dv-chat-workbench-standalone:build",
+  "hmr": false
+}
+
           "configurations": {
             "production": {
               "browserTarget": "dv-chat-workbench-standalone:build:production"
