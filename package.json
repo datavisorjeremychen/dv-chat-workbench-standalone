@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "ng serve --open",
-    "build": "ng build",
-    "test": "ng test"
-  },
+  "start": "ng serve",
+  "build": "ng build"
+}
+
   "dependencies": {
     "@angular/animations": "~14.2.0",
     "@angular/common": "~14.2.0",
